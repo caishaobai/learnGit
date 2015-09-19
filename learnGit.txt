@@ -4,7 +4,8 @@
 4.git commit 提交更改，实际上就是把暂存区的所有内容提交到当前分支。
 
 git status：命令可以让我们时刻掌握仓库当前的状态。
-git diff：顾名思义就是查看difference，可以知道对文件作了什么修改。
+git diff：比较工作区和暂存区的区别。
+git diff HEAD -- readme.txt：可以查看工作区和版本库里面最新版本的区别。
 git log：可以告诉我们历史记录，显示从最近到最远的提交日志，以便确定要回退到哪个版本。
 git reflog：查看命令历史，以便确定要回到未来的哪个版本。
 Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
