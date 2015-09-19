@@ -1,0 +1,10 @@
+1.创建目录（mkdir）。
+2.通过 git init 把当前目录变成Git可以管理的仓库（repository）。
+3.git add 把文件添加到仓库。
+4.git commit 把文件提交到仓库。
+
+git status：命令可以让我们时刻掌握仓库当前的状态。
+git diff：顾名思义就是查看difference，可以知道对文件作了什么修改。
+git log：可以告诉我们历史记录，显示从最近到最远的提交日志，以便确定要回退到哪个版本。
+git reflog：查看命令历史，以便确定要回到未来的哪个版本。
+Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
