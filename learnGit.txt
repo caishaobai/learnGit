@@ -1,29 +1,33 @@
 1.´´½¨Ä¿Â¼£¨mkdir£©¡£
 
-2.Í¨¹ý git init °Ñµ±Ç°Ä¿Â¼±ä³ÉGit¿ÉÒÔ¹ÜÀíµÄ²Ö¿â£¨repository£©¡£
+2.Í¨¹ý git init : °Ñµ±Ç°Ä¿Â¼±ä³ÉGit¿ÉÒÔ¹ÜÀíµÄ²Ö¿â£¨repository£©¡£
 
-3.git add£º°ÑÎÄ¼þÌí¼Ó½øÈ¥£¬Êµ¼ÊÉÏ¾ÍÊÇ°ÑÎÄ¼þÐÞ¸ÄÌí¼Óµ½ÔÝ´æÇø¡£
+3.git add £º°ÑÎÄ¼þÌí¼Ó½øÈ¥£¬Êµ¼ÊÉÏ¾ÍÊÇ°ÑÎÄ¼þÐÞ¸ÄÌí¼Óµ½ÔÝ´æÇø¡£
 
-4.git commit Ìá½»¸ü¸Ä£¬Êµ¼ÊÉÏ¾ÍÊÇ°ÑÔÝ´æÇøµÄËùÓÐÄÚÈÝÌá½»µ½µ±Ç°·ÖÖ§¡£
+4.git commit : Ìá½»¸ü¸Ä£¬Êµ¼ÊÉÏ¾ÍÊÇ°ÑÔÝ´æÇøµÄËùÓÐÄÚÈÝÌá½»µ½µ±Ç°·ÖÖ§¡£
 
 -------------------------------------------------------------------
-git status£ºÃüÁî¿ÉÒÔÈÃÎÒÃÇÊ±¿ÌÕÆÎÕ²Ö¿âµ±Ç°µÄ×´Ì¬¡£
+git status £ºÃüÁî¿ÉÒÔÈÃÎÒÃÇÊ±¿ÌÕÆÎÕ²Ö¿âµ±Ç°µÄ×´Ì¬¡£
 
-git diff£º±È½Ï¹¤×÷ÇøºÍÔÝ´æÇøµÄÇø±ð¡£
+git diff £º±È½Ï¹¤×÷ÇøºÍÔÝ´æÇøµÄÇø±ð¡£
 
-git diff HEAD -- readme.txt£º¿ÉÒÔ²é¿´¹¤×÷ÇøºÍ°æ±¾¿âÀïÃæ×îÐÂ°æ±¾µÄÇø±ð¡£
+git diff HEAD -- readme.txt £º¿ÉÒÔ²é¿´¹¤×÷ÇøºÍ°æ±¾¿âÀïÃæ×îÐÂ°æ±¾µÄÇø±ð¡£
 
-git log£º¿ÉÒÔ¸æËßÎÒÃÇÀúÊ·¼ÇÂ¼£¬ÏÔÊ¾´Ó×î½üµ½×îÔ¶µÄÌá½»ÈÕÖ¾£¬ÒÔ±ãÈ·¶¨Òª»ØÍËµ½ÄÄ¸ö°æ±¾¡£
+git log £º¿ÉÒÔ¸æËßÎÒÃÇÀúÊ·¼ÇÂ¼£¬ÏÔÊ¾´Ó×î½üµ½×îÔ¶µÄÌá½»ÈÕÖ¾£¬ÒÔ±ãÈ·¶¨Òª»ØÍËµ½ÄÄ¸ö°æ±¾¡£
 
-git reflog£º²é¿´ÃüÁîÀúÊ·£¬ÒÔ±ãÈ·¶¨Òª»Øµ½Î´À´µÄÄÄ¸ö°æ±¾¡£
+git reflog £º²é¿´ÃüÁîÀúÊ·£¬ÒÔ±ãÈ·¶¨Òª»Øµ½Î´À´µÄÄÄ¸ö°æ±¾¡£
 
-GitÔÊÐíÎÒÃÇÔÚ°æ±¾µÄÀúÊ·Ö®¼ä´©Ëó£¬Ê¹ÓÃÃüÁîgit reset --hard commit_id¡£
+GitÔÊÐíÎÒÃÇÔÚ°æ±¾µÄÀúÊ·Ö®¼ä´©Ëó£¬Ê¹ÓÃÃüÁîgit reset --hard id¡£
 git resetÃüÁî¼È¿ÉÒÔ»ØÍË°æ±¾£¬Ò²¿ÉÒÔ°ÑÔÝ´æÇøµÄÐÞ¸Ä»ØÍËµ½¹¤×÷Çø¡£µ±ÎÒÃÇÓÃHEADÊ±£¬±íÊ¾×îÐÂµÄ°æ±¾¡£
 
 ----------------------------------------------------------------------------
-ÃüÁîgit checkout -- readme.txtÒâË¼¾ÍÊÇ£¬°Ñreadme.txtÎÄ¼þÔÚ¹¤×÷ÇøµÄÐÞ¸ÄÈ«²¿³·Ïú£¬ÕâÀïÓÐÁ½ÖÖÇé¿ö£º
-Ò»ÖÖÊÇreadme.txt×ÔÐÞ¸Äºó»¹Ã»ÓÐ±»·Åµ½ÔÝ´æÇø£¬ÏÖÔÚ£¬³·ÏúÐÞ¸Ä¾Í»Øµ½ºÍ°æ±¾¿âÒ»Ä£Ò»ÑùµÄ×´Ì¬£»
-Ò»ÖÖÊÇreadme.txtÒÑ¾­Ìí¼Óµ½ÔÝ´æÇøºó£¬ÓÖ×÷ÁËÐÞ¸Ä£¬ÏÖÔÚ£¬³·ÏúÐÞ¸Ä¾Í»Øµ½Ìí¼Óµ½ÔÝ´æÇøºóµÄ×´Ì¬¡£
+git rm : 
+  ÓÃÓÚÉ¾³ýÒ»¸öÎÄ¼þ¡£Èç¹ûÒ»¸öÎÄ¼þÒÑ¾­±»Ìá½»µ½°æ±¾¿â£¬ÄÇÃ´ÄãÓÀÔ¶²»ÓÃµ£ÐÄÎóÉ¾£¬µ«ÊÇÒªÐ¡ÐÄ£¬ÄãÖ»ÄÜ»Ö¸´ÎÄ¼þµ½×îÐÂ°æ±¾£¬Äã»á¶ªÊ§×î½üÒ»´ÎÌá½»ºóÄãÐÞ¸ÄµÄÄÚÈÝ¡£
+
+git checkout -- readme.txt : 
+ÒâË¼¾ÍÊÇ£¬°Ñreadme.txtÎÄ¼þÔÚ¹¤×÷ÇøµÄÐÞ¸ÄÈ«²¿³·Ïú£¬ÕâÀïÓÐÁ½ÖÖÇé¿ö£º
+  Ò»ÖÖÊÇreadme.txt×ÔÐÞ¸Äºó»¹Ã»ÓÐ±»·Åµ½ÔÝ´æÇø£¬ÏÖÔÚ£¬³·ÏúÐÞ¸Ä¾Í»Øµ½ºÍ°æ±¾¿âÒ»Ä£Ò»ÑùµÄ×´Ì¬£»
+  Ò»ÖÖÊÇreadme.txtÒÑ¾­Ìí¼Óµ½ÔÝ´æÇøºó£¬ÓÖ×÷ÁËÐÞ¸Ä£¬ÏÖÔÚ£¬³·ÏúÐÞ¸Ä¾Í»Øµ½Ìí¼Óµ½ÔÝ´æÇøºóµÄ×´Ì¬¡£
 ×ÜÖ®£¬¾ÍÊÇÈÃÕâ¸öÎÄ¼þ»Øµ½×î½üÒ»´Îgit commit»ògit addÊ±µÄ×´Ì¬¡£
 
 ----------------------------------------------------------------------------
@@ -33,3 +37,15 @@ git resetÃüÁî¼È¿ÉÒÔ»ØÍË°æ±¾£¬Ò²¿ÉÒÔ°ÑÔÝ´æÇøµÄÐÞ¸Ä»ØÍËµ½¹¤×÷Çø¡£µ±ÎÒÃÇÓÃHEADÊ±£¬±
 
 ³¡¾°3£ºÒÑ¾­Ìá½»ÁË²»ºÏÊÊµÄÐÞ¸Äµ½°æ±¾¿âÊ±£¬ÏëÒª³·Ïú±¾´ÎÌá½»£¬²Î¿¼°æ±¾»ØÍËÒ»½Ú£¬²»¹ýÇ°ÌáÊÇÃ»ÓÐÍÆËÍµ½Ô¶³Ì¿â¡£
 
+----------------------------------------------------------------------------
+git remote add origin git@github.com:caishaobai/learngit.git :
+  ¿ÉÒÔ´ÓÕâ¸ö²Ö¿â¿ËÂ¡³öÐÂµÄ²Ö¿â£¬Ò²¿ÉÒÔ°ÑÒ»¸öÒÑÓÐµÄ±¾µØ²Ö¿âÓëÖ®¹ØÁª£¬È»ºó£¬°Ñ±¾µØ²Ö¿âµÄÄÚÈÝÍÆËÍµ½GitHub²Ö¿â¡£Ìí¼Óºó£¬Ô¶³Ì¿âµÄÃû×Ö¾ÍÊÇorigin£¬ÕâÊÇGitÄ¬ÈÏµÄ½Ð·¨£¬Ò²¿ÉÒÔ¸Ä³É±ðµÄ£¬µ«ÊÇoriginÕâ¸öÃû×ÖÒ»¿´¾ÍÖªµÀÊÇÔ¶³Ì¿â¡£
+
+git push -u origin master :
+  ÓÉÓÚÔ¶³Ì¿âÊÇ¿ÕµÄ£¬ÎÒÃÇµÚÒ»´ÎÍÆËÍmaster·ÖÖ§Ê±£¬¼ÓÉÏÁË-u²ÎÊý£¬Git²»µ«»á°Ñ±¾µØµÄmaster·ÖÖ§ÄÚÈÝÍÆËÍµÄÔ¶³ÌÐÂµÄmaster·ÖÖ§£¬»¹»á°Ñ±¾µØµÄmaster·ÖÖ§ºÍÔ¶³ÌµÄmaster·ÖÖ§¹ØÁªÆðÀ´£¬ÔÚÒÔºóµÄÍÆËÍ»òÕßÀ­È¡Ê±¾Í¿ÉÒÔ¼ò»¯ÃüÁî¡£
+
+git push origin master :
+  °Ñ±¾µØmaster·ÖÖ§µÄ×îÐÂÐÞ¸ÄÍÆËÍÖÁGitHub£¬ÏÖÔÚ£¬Äã¾ÍÓµÓÐÁËÕæÕýµÄ·Ö²¼Ê½°æ±¾¿â£¡
+
+----------------------------------------------------------------------------
+¿ËÂ¡Ò»¸ö±¾µØ¿â£ºgit clone git@github.com:caishaobai/gitskills.git
